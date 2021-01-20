@@ -1,0 +1,3 @@
+-IC:\Users\Maria\Documents\GitHub\trabalho-alg2\trabalho-alg2
+-target
+i686-pc-windows-gnu
