@@ -3,15 +3,6 @@
 #include <string.h>
 
 typedef struct{
-   char logadouro[30];
-   int n[5];
-   char bairro[30];
-   char cidade[30];
-   
-} endereco_cli; 
-
-
-typedef struct{
   int codigo;
   char nome[30];
   int cpf[15];
@@ -20,11 +11,26 @@ typedef struct{
   char sexo;
   char estado_civil[15];
   int data_de_nascimento[11];
-  endereco_cli* endereco;
+  char logadouro[30];
+  int n[5];
+  char bairro[30];
+  char cidade[30];
   
 } dados_cli;
 
-void cadastro_cli{   '''cadastro de cliente'''
+void cadastro_cli();
+
+void cadastro_cli(){
+    
+    dados_cli cliente;
+    
+    printf("Nome do cliente: \n");
+    scanf("%s", cliente.nome);
+        
+    printf("CPF do cliente: \n");
+    scanf("%d", &cliente.cpf);
+        
     
     
+    return 0;
 }

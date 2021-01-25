@@ -1,0 +1,1 @@
+../build-Debug/trabalho-alg2/main.c.o ../build-Debug/trabalho-alg2/cliente.c.o   

@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "cliente.h"
 
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv){
+    
+    int op_menu_principal;
+    
 	printf("-MENU PRINCIPAL-\n"
     "1- Gestão de dados\n"
     "2- Cadastro de hotel\n"
@@ -12,12 +15,9 @@ int main(int argc, char **argv)
     "4- Reservas\n"
     "0- Sair\n");
     
-    printf("Operação: \n");
-    scanf("%d", &op_menu_principal);
-    
-    switch(op_menu_principal){
-        case 1: 
+    if(op_menu_principal == 3){
         
+        cadastro_cli();
     }
 	return 0;
 }
