@@ -15,7 +15,4 @@ typedef struct{
   
 } dados_cli;
 
-void cadastro_cli(){
-    
-    return 0;
-}
+void cadastro_cli();

@@ -12,35 +12,35 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\Maria\Documents\GitHub\trabalho-alg2\trabalho-alg2\cliente.c" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="8" Name="FirstVisibleLine"/>
       <int Value="21" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\Maria\Documents\GitHub\trabalho-alg2\trabalho-alg2\cliente.h" Name="FileName"/>
-      <int Value="7" Name="FirstVisibleLine"/>
+      <int Value="15" Name="FirstVisibleLine"/>
       <int Value="17" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\Maria\Desktop\Semente trabalho\Cliente.c" Name="FileName"/>
-      <int Value="13" Name="FirstVisibleLine"/>
+      <int Value="32" Name="FirstVisibleLine"/>
       <int Value="34" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\Maria\Desktop\Semente trabalho\Cliente.h" Name="FileName"/>
-      <int Value="16" Name="FirstVisibleLine"/>
+      <int Value="24" Name="FirstVisibleLine"/>
       <int Value="26" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\Maria\Desktop\Semente trabalho\main.c" Name="FileName"/>
-      <int Value="62" Name="FirstVisibleLine"/>
+      <int Value="66" Name="FirstVisibleLine"/>
       <int Value="68" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>

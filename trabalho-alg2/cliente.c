@@ -1,36 +1,36 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "cliente.h"
 
-typedef struct{
-  int codigo;
-  char nome[30];
-  int cpf[15];
-  int telefone[11];
-  char email[30];
-  char sexo;
-  char estado_civil[15];
-  int data_de_nascimento[11];
-  char logadouro[30];
-  int n[5];
-  char bairro[30];
-  char cidade[30];
-  
-} dados_cli;
 
 void cadastro_cli();
 
-void cadastro_cli(){
+void cadastro_cli()
+{
+    
+    FILE *lista_cliente;
     
     dados_cli cliente;
     
-    printf("Nome do cliente: \n");
-    scanf("%s", cliente.nome);
+    if()
+    {
+        lista_cliente = fopen("lista_cliente.txt", "w+");
         
-    printf("CPF do cliente: \n");
-    scanf("%d", &cliente.cpf);
+        fprintf(lista_cliente, "Nome: \n");
+        fprintf(lista_cliente, "CPF: \n");
+        fprintf(lista_cliente, "Telefone: \n");
+        fprintf(lista_cliente, "E-mail: \n");
+        fprintf(lista_cliente, "Sexo: \n");
+        fprintf(lista_cliente, "Estado civil: \n");
+        fprintf(lista_cliente, "Data de nascimento: \n");
+        fprintf(lista_cliente, "Logadouro: \n");
+        fprintf(lista_cliente, "Número: \n");
+        fprintf(lista_cliente, "Bairro: \n");
+        fprintf(lista_cliente, "Cidade: \n");
+        fprintf(lista_cliente, "\n\n");
         
+        fclose(lista_cliente);
     
-    
-    return 0;
+    }
 }
