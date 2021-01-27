@@ -1,10 +1,11 @@
-Nome do cliente: 
-CPF do cliente: 
-Telefone do cliente: 
-E-mail do cliente: 
-Sexo do cliente: 
-Estado civil do cliente: 
-Data de nascimento do cliente: 
+Código: 
+Nome: 
+CPF: 
+Telefone: 
+E-mail: 
+Sexo: 
+Estado civil: 
+Data de nascimento: 
 Logadouro: 
 Número: 
 Bairro: 

@@ -13,24 +13,25 @@ void cadastro_cli()
     
     dados_cli cliente;
     
-    if()
-    {
+    //if()
+    //{
         lista_cliente = fopen("lista_cliente.txt", "w+");
         
-        fprintf(lista_cliente, "Nome: \n");
-        fprintf(lista_cliente, "CPF: \n");
-        fprintf(lista_cliente, "Telefone: \n");
-        fprintf(lista_cliente, "E-mail: \n");
-        fprintf(lista_cliente, "Sexo: \n");
-        fprintf(lista_cliente, "Estado civil: \n");
-        fprintf(lista_cliente, "Data de nascimento: \n");
-        fprintf(lista_cliente, "Logadouro: \n");
-        fprintf(lista_cliente, "Número: \n");
-        fprintf(lista_cliente, "Bairro: \n");
-        fprintf(lista_cliente, "Cidade: \n");
-        fprintf(lista_cliente, "\n\n");
+        fprintf(lista_cliente, "Código: \n"
+        "Nome: \n"
+        "CPF: \n"
+        "Telefone: \n"
+        "E-mail: \n"
+        "Sexo: \n"
+        "Estado civil: \n"
+        "Data de nascimento: \n"
+        "Logadouro: \n"
+        "Número: \n"
+        "Bairro: \n"
+        "Cidade: \n"
+        "\n\n");
         
         fclose(lista_cliente);
     
-    }
+    //}
 }
